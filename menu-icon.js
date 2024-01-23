@@ -1,4 +1,4 @@
 // menu-icon.js
-function myFunction(x){
+function myMenu(x){
     x.classList.toggle("change");
 }
