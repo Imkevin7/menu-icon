@@ -1,20 +1,3 @@
-html, body {
-  padding: 0;
-  margin: 0;
-  font-family: sans-serif;
-}
-html p, body p {
-  font-size: 1.125em;
-  line-height: 1.65em;
-  color: #333333;
-  font-weight: 300;
-}
-html h3, body h3 {
-  color: #c22033;
-  font-weight: 500;
-  font-size: 1.25em;
-}
-
 .menu-icon {
   text-align: center;
 }
@@ -36,25 +19,5 @@ html h3, body h3 {
   opacity: 0;
 }
 .menu-icon .change .bar3 {
-  transform: translate(0, -11px) rotate(45deg);
-}
-
-.test {
-  display: grid;
-  justify-content: center;
-  align-items: center;
-}
-.test .wrap {
-  text-align: center;
-}
-.test .wrap .b1, .test .wrap .b2, .test .wrap .b3 {
-  width: 20px;
-  height: 5px;
-  background-color: #c22033;
-  margin: 6px 0;
-  transition: 0.4s;
-  transform: translate(0, 11px) rotate(-45deg);
-}
-.test .wrap .x .b1 {
   transform: translate(0, -11px) rotate(45deg);
 }
